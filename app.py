@@ -6,7 +6,7 @@ import os
 # 設置頁面配置
 st.set_page_config(
     page_title="檔案轉換 Markdown 工具",
-    page_icon="📝",
+    page_icon="🔥",
     layout="wide"
 )
 
@@ -36,6 +36,7 @@ st.markdown("""
 # 標題和說明
 st.title("📝 檔案轉換 Markdown 工具")
 st.markdown("### 輕鬆將您的檔案轉換成 Markdown 格式")
+st.markdown("#### 參考 GitHub Repo: [https://github.com/microsoft/markitdown](https://github.com/microsoft/markitdown)")
 
 # 初始化 MarkItDown
 markitdown = MarkItDown()
