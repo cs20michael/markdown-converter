@@ -11,13 +11,18 @@
 - 美觀的使用者介面
 
 ## 本地安裝步驟
+1. 建立virtualenv：
+```bash
+virtualenv llm
+.\llm\Scripts\activate
+```
 
-1. 安裝相依套件：
+2. 安裝相依套件：
 ```bash
 pip install -r requirements.txt
 ```
 
-2. 執行應用程式：
+3. 執行應用程式：
 ```bash
 streamlit run app.py
 ```
